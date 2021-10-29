@@ -19,5 +19,8 @@ PHP Date Function
  echo "To day is:".Date("l");
  
  ?>
+	<?php
+echo "The Time is:".Date("h.i.sa");
+?>
 </body>
 </html>
