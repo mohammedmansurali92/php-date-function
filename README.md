@@ -22,5 +22,9 @@ PHP Date Function
 	<?php
 echo "The Time is:".Date("h.i.sa");
 ?>
+	<?php
+$d= mktime(11,14,54,12,8,2014);
+echo "The create time is:".date("d-m-y h:i:sa",$d)
+?>
 </body>
 </html>
